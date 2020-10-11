@@ -23,4 +23,5 @@ urlpatterns = [
 
     path('api/mgr/',include('mgr.urls')),
 
+
 ] + static("/", document_root="./z_dist")
