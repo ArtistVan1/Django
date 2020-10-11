@@ -56,7 +56,7 @@ def modifycustomer(request):
     customerid  = request.params['id']
     newdata     = request.params['newdata']
 
-    record = Customer.objects.
+
 
     try:
         customer = Customer.objects.get(id=customerid)
